@@ -105,3 +105,75 @@ MuleSoft, a subsidiary of Salesforce, provides Anypoint Platform, an integration
 <div align="center">
 <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*vF7qXf-mijelFpSoqb4TXA.png"  />
 </div>
+
+## ⭐ Salesforce Architecture
+
+
+Salesforce architecture is renowned for its sophistication, blending several core principles to create a robust platform for building and deploying cloud-based applications. Let's delve into three key architectural components: **multi-tenancy**, **metadata-driven development**, and **APIs**.
+
+<div align="center">
+<img src="https://www.eginnovations.com/documentation/Resources/Images/Salesforce/salesforce-architecture3.png"  />
+</div>
+
+### ⚡ Multi-Tenancy
+
+**The multi-tenant architecture means one common application for multiple groups or clients. In such an architecture, multiple clients use the same server, but their oaks are isolated from each other. It means the data of one client is secure and isolated from other groups or clients.**
+
+Because of multi-tenancy, any developer can develop an application, upload it on the cloud, and easily share it with multiple clients or groups. Multiple users share the same server and applications, hence it is very cost-effective. In Salesforce, because of this multi-tenant architecture, all customers' data is saved in a single database.
+
+1. **Shared Infrastructure**: In a multi-tenant architecture, multiple organizations (tenants) share a common instance of the Salesforce application and underlying infrastructure. This shared infrastructure includes servers, databases, and networking resources. Each organization operates within its own virtual partition or "org" within the Salesforce environment.
+
+2. **Logical Isolation**: Despite sharing the same infrastructure, Salesforce ensures logical isolation between tenants to maintain data privacy, security, and performance. Each organization's data is stored separately in its own database instance, physically segregated from other organizations' data. Access controls and permissions are enforced at multiple levels to prevent unauthorized access to sensitive information.
+
+3. **Resource Optimization**: Multi-tenancy enables efficient resource utilization by pooling hardware and infrastructure resources across multiple tenants. This pooling allows Salesforce to achieve economies of scale and cost savings, as resources are shared and allocated dynamically based on demand. It also enables Salesforce to deliver updates, patches, and new features to all tenants simultaneously, ensuring consistent and up-to-date service across the platform.
+
+4. **Scalability**: One of the key benefits of multi-tenancy is scalability. Salesforce can scale resources up or down dynamically to accommodate changes in workload and user demand. This elasticity allows Salesforce to handle spikes in traffic, accommodate growing user bases, and adapt to evolving business requirements without disruption.
+
+5. **Performance**: Despite serving multiple tenants, Salesforce maintains high levels of performance by optimizing resource allocation and implementing robust performance tuning mechanisms. Each organization's data access and processing are prioritized to ensure responsive and reliable service delivery.
+
+6. **Data Isolation and Security**: Salesforce employs robust security measures to ensure data isolation and protect sensitive information. Data encryption, access controls, and compliance certifications (such as SOC 2 and ISO 27001) are in place to safeguard data privacy and security. Additionally, Salesforce provides tools and features for organizations to manage their own security policies and compliance requirements within their respective orgs.
+
+<div align="center">
+<img src="https://intellipaat.com/mediaFiles/2019/03/Multi-tenant.jpg"  />
+</div>
+
+<div align="center">
+<img src="https://qph.cf2.quoracdn.net/main-qimg-ad537f81b431a170521661167ebe771f"  />
+</div>
+
+---
+
+### ⚡ Metadata
+
+The Salesforce platform follows the meta-data development model. The metadata means data about the data. Salesforce stores the metadata in the shared database along with the data. It means it stores the data as well as what data does.
+
+The tenant-specific data ensures that the common data is only shared with one tenant, not with another tenant or group. This ensures the security of the data even in the shared database.
+
+Metadata plays a central role in Salesforce architecture, enabling customization and flexibility without the need for extensive coding. Here's a breakdown of metadata in Salesforce:
+
+* **Definition**: In Salesforce, metadata refers to data about data. It includes information about the structure, configuration, and behavior of Salesforce applications, as well as the customization and settings applied by users.
+
+* **Types of Metadata**: Salesforce metadata encompasses various components, including:
+    - **Objects**: Data structures that define the fields and relationships for storing records (e.g., Account, Contact).
+    - **Fields**: Attributes that define the characteristics and properties of data stored in objects (e.g., Name, Email).
+    - **Layouts**: Visual arrangements of fields and related components on user interfaces (e.g., page layouts, record detail pages).
+    - **Workflows**: Automated processes that trigger actions based on predefined criteria and rules (e.g., sending email alerts, updating records).
+    - **Processes**: Logic-driven automation that automates business processes without code (e.g., process builder, flow).
+    - **Apex Classes**: Custom code written in Apex, Salesforce's proprietary programming language, to extend platform functionality.
+    - **Visualforce Pages**: Custom user interface components and pages developed using Visualforce markup language.
+    - **Lightning Components**: Custom reusable components built using the Lightning Component Framework.
+    - **Profiles and Permissions**: Security settings that control access to objects, fields, and functionality based on user roles and permissions.
+    - **Reports and Dashboards**: Data visualization tools for analyzing and presenting Salesforce data.
+* **Declarative Customization**: Salesforce provides declarative tools that allow users to customize applications without writing code. These tools enable users to configure and customize metadata components through point-and-click interfaces, making it accessible to administrators and business users with minimal technical skills.
+* **Programmatic Customization**: In addition to declarative customization, Salesforce supports programmatic customization using Apex (backend logic) and Visualforce/Lightning Components (user interface). Developers can write custom code to extend and enhance Salesforce functionality beyond what's possible with declarative tools, providing greater flexibility and customization options.
+* **Version Control**: Salesforce offers version control features to manage changes to metadata configurations and customizations. Administrators and developers can track changes, compare versions, and roll back to previous configurations if needed, ensuring consistency and reliability across different environments.
+
+<div align="center">
+<img src="https://static.javatpoint.com/tutorial/salesforce/images/salesforce-architecture5.png"  />
+</div>
+
+### ⚡ APIs
+
+The Salesforce metadata-driven model allows the developers to create their applications easily with the help of various tools. But sometimes developers need some more functionalities for their apps to make some modifications. To make such modifications, Salesforce provides a powerful APIs. These APIs helps the developers to customize the Salesforce application. These APIs allows the various bits of programming to interface with each other and trade data. Without knowing many details, we can connect our apps with other apps.
+
+The API provides a simple but powerful, and open way to programmatically access the data and any app running on the Salesforce platform. These APIs helps the developers to access apps from any location, using any programming language that supports Web services, like Java, PHP, C#, or .NET.

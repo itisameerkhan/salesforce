@@ -1,3 +1,8 @@
+
+<div align="center">
+<img src="https://images.ctfassets.net/y6oq7udscnj8/3xpEXD3C5e5zVALsPBdiy/18328ea29291fe7fd662c7f4081cf6ab/Salesforce.png?w=592&h=368&q=50&fm=png"  />
+</div>
+
 # Introduction
 
 Salesforce is a cloud-based customer relationship management (CRM) platform that helps businesses manage their sales, marketing, customer service, and other related operations. It allows companies to store and manage customer information, track leads and opportunities, automate workflows, and analyze data to make informed business decisions. Salesforce is highly customizable and offers a wide range of features and functionalities through its various modules and applications.
@@ -177,3 +182,11 @@ Metadata plays a central role in Salesforce architecture, enabling customization
 The Salesforce metadata-driven model allows the developers to create their applications easily with the help of various tools. But sometimes developers need some more functionalities for their apps to make some modifications. To make such modifications, Salesforce provides a powerful APIs. These APIs helps the developers to customize the Salesforce application. These APIs allows the various bits of programming to interface with each other and trade data. Without knowing many details, we can connect our apps with other apps.
 
 The API provides a simple but powerful, and open way to programmatically access the data and any app running on the Salesforce platform. These APIs helps the developers to access apps from any location, using any programming language that supports Web services, like Java, PHP, C#, or .NET.
+
+A powerful source of APIs is provided by Salesforce. These APIs |
+help in the development and customization of Salesforce |
+Mobile Application. 
+
+Their purpose is to let you manipulate your Salesforce data, |
+whereas other APIs let you do things like customize page
+layouts or build custom development tools. |

@@ -80,18 +80,11 @@ MuleSoft, a subsidiary of Salesforce, provides Anypoint Platform, an integration
 
 * **API-Led Connectivity**: A design approach and methodology for building reusable and composable APIs, enabling organizations to create a network of interconnected applications and services that can be easily consumed and reused across the enterprise.
 
-| On Premises  | PaaS     |
-| ---  | --- |
-| (own server) | (app service) |
-| Applications | Applications
-| Data | Data
-| Runtime | 
-| Middleware |
-| O/S | 
-| Visualisation | 
-| Servers |
-| storage | 
-| Networking | 
+<div align="center">
+<img src="https://zure.com/wp-content/uploads/2020/01/cloud-models.png"  />
+</div>
+
+<br>
 
 ## ⭐ Why Salesforce ? 
 

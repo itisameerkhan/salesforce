@@ -84,5 +84,4 @@ Certainly! Here's a breakdown of the MVC-like components in Salesforce developme
    - Flows: Flows are visual workflows that automate complex business processes and guide users through interactive screens and decision branches. They can be used to streamline data entry, automate approvals, and integrate with external systems.
    - Approval Process: Approval processes automate the approval of records (e.g., sales opportunities, expense reports) by defining criteria, approval steps, and approval actions to be taken based on user responses.
 
-
-## ⭐ Salesforce Application Development Tools
+## ⭐ Salesforce Application Development Tools 

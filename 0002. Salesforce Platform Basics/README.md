@@ -1,6 +1,6 @@
 # 📍 Salesforce Platform Basics
 
-<div align="center">
+<div align="center" style="background-color:white">
 <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/starting_force_com/starting_understanding_arch/images/a1431385e8033388e20af1ae89816913_kix.ntlioi9sdd3l.png" alt="demo" />
 </div>
 

@@ -4,6 +4,8 @@
 <img src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/starting_force_com/starting_understanding_arch/images/a1431385e8033388e20af1ae89816913_kix.ntlioi9sdd3l.png" alt="demo" />
 </div>
 
+<br>
+
 * Salesforce is a cloud company. Everything we offer resides in the trusted, multitenant cloud.
 
 * The Salesforce platform is the foundation of our services. It’s powered by metadata and made up of different parts, like data services, artificial intelligence, and robust APIs for development.
